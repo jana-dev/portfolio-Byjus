@@ -1,0 +1,121 @@
+body{
+    background-color: #e4f8f3;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu li{
+    padding: 15px 20px;
+    cursor: pointer;
+    
+
+}
+
+.menu li:hover{
+    background-color: #8daaa3;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8e7db;
+    height: 50px;
+    width: 100%;
+}
+
+
+.conteudos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#welcome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#bio{
+    width: 90%;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 40px;
+    margin: 10px;
+}
+h2{
+    color: #579786;
+    margin: 10px;
+}
+
+.line{
+    height: 5px;
+    width: 50px;
+    background-color: black;
+    margin: 30px auto;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 300px;
+
+}
+
+iframe{
+
+    margin-bottom: 50px;
+}
+
+#apps, #games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+h1{
+    margin-bottom: 50px;
+}
+.divCardGames{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardGames{
+    margin-left: 20px;
+    border: 2px solid #57968567;
+    text-align: center;
+    padding:0px 0px 10px 0px;
+}
+
+.cardGames a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.cardGames img{
+    margin-bottom: 5px;
+}
+
+
